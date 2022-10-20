@@ -1,0 +1,60 @@
+.program-section {
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+}
+
+#h-works {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.flexbox-container-one-column p {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.flexbox-container-three-columns {
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+
+.flexbox-column-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flexbox-item-2 {
+    width: 350px;
+    height: 200px;
+    margin: 3rem;
+    padding: 20px;
+  
+}
+
+
+.flexbox-item-2 h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    /* padding: 0.3rem; */
+}
+
+.flexbox-item-2 p {
+    margin: 0;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.flexbox-item-2 img {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+/* .flexbox-container-one-column {
+    padding-bottom: 1rem;
+} */

@@ -1,0 +1,48 @@
+.flexbox-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    padding: 4rem;
+    margin: 0;
+}
+
+#contact-form {
+    width: 500px;
+    align-self: center;
+    /* padding: 50px; */
+    margin: 0;
+}
+
+#contact-form h1{
+    padding-bottom: 1.2rem;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#contact-form button {
+    padding: 1rem 2rem;
+    margin-top: .4rem;
+    width: max-content;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#contact-form button:hover {
+    background-color: transparent;
+    color: black;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.name-label, .email-label, .message-label {
+    /* display: block;
+    text-align: left; */
+    padding-bottom: .4rem;
+}
+
+.alert-dismissible .btn-close {
+ margin-top: -0.03rem;
+}

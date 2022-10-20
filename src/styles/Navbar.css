@@ -1,0 +1,41 @@
+body {
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.main-nav {
+    padding: 1.2rem 2rem;
+    background-color: white;
+}
+
+#basic-navbar-nav a {
+    color: black;
+    padding: 0.7rem 1.25rem;
+    font-size: 15px;
+}
+
+#basic-navbar-nav a:hover {
+    background-color: transparent;
+    color: rgb(42, 0, 68);
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+#basic-navbar-nav > div.right-nav.navbar-nav > a.btn.btn-dark {
+    color: white;
+}
+
+#basic-navbar-nav > div.right-nav.navbar-nav > a.btn.btn-dark:hover {
+    color: black;
+}
+
+@media all and (max-width: 380px) {
+    .navbar-main-logo {
+        content: url('../imgs/altruvita-logo-mobile.svg');
+        width: 40px;
+    }
+}
+
+.fa {
+    color: white;
+}

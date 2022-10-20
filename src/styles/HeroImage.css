@@ -1,0 +1,122 @@
+.banner-image {
+    background: url('../imgs/hero-image.png');
+    background-size: cover;
+    padding: 10rem;
+    flex-grow: 1;
+}
+
+.text-white.title {
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: left;
+    padding-bottom: 1.5rem;
+    text-shadow: 2px 1px 6px rgba(0,0,0,0.58);
+}
+
+.text-white.sub-title {
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 1.5rem;
+    text-shadow: 2px 1px 6px rgba(0,0,0,0.58);
+}
+
+.flexbox-item-row-1.empty-column {
+    width: 1200px;
+}
+
+.donate-btn {
+    display: flex;
+    width: max-content;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.donate-btn:hover {
+    background-color: transparent;
+    color: white;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+@media all and (max-width: 580px) {
+
+    #root > div > div:nth-child(2) > div > div.flexbox-item-row-1.main-title {
+        margin-top: 0;
+    }
+
+    .banner-image {
+        background-position: 70%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .donate-btn {
+        display: inline-block;
+    }
+
+    .d-flex{
+        flex-direction: column;
+    }
+
+    .flexbox-item-row-1.empty-column {
+        display: none;
+    }
+
+    .text-white.title {
+        font-size: 100px;
+        text-align: center;
+    }
+    
+    .text-white.sub-title {
+        /* margin-top: 40px; */
+        text-align: center;
+        padding-bottom: 1.5rem;
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 780px) {
+
+    #root > div > div:nth-child(2) > div > div.flexbox-item-row-1.main-title {
+        margin-top: 0;
+    }
+
+    .donate-btn {
+        display: inline-block;
+    }
+
+    .d-flex{
+        flex-direction: column;
+    }
+
+    .flexbox-item-row-1.empty-column {
+        display: none;
+    }
+
+    .text-white.title {
+        font-size: 50px;
+        text-align: center;
+        
+    }
+    
+    .text-white.sub-title {
+        /* margin-top: 40px; */
+        text-align: center;
+        /* padding-bottom: 1.5rem; */
+        font-size: 18px;
+    }
+
+    .banner-image {
+        background-position: 70%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .flexbox-item-row-1.main-title {
+        align-content: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}
